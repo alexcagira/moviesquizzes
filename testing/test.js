@@ -36,7 +36,7 @@ var questions = [
     c: "Arwen",
     d: "Aragorn",
     answer: "a",
-    audio: "https://www.dropbox.com/s/a1i66b15qfz3ymx/annascott.mp3?dl=0"
+    audio: "/testing/audio-quotes/ripley.mp3"
 
   },
 
