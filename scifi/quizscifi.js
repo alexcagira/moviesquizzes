@@ -36,7 +36,7 @@ var questions = [
     c: "Arwen",
     d: "Aragorn",
     answer: "a",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/scifi/audio-quotes/ripley.mp3"
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/882cac3913faeed624a7a8fb72d1215e88b5eb65/scifi/audio-quotes/ripley.mp3"
 
   },
 
