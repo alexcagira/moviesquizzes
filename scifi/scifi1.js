@@ -30,7 +30,7 @@ var questions = [
   },
 
   { //Question 4
-    question: "<h2>'They're coming to get you, Barbara'</h2>",
+    question: "<h2>'Love is the only that transcends time and space'</h2>",
     a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/ripley.png?raw=true",
     b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/brand.png?raw=true",
     c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/arwen.png?raw=true",
