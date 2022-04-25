@@ -23,6 +23,12 @@ image-subtitle{
     padding: 2px;
     font-size: 20px;
 }
+
+.row{
+justify-content: center;
+padding: 50px 0;
+}
+
 .row::after{
     content: " ";
     clear: both;
