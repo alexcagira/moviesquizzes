@@ -26,14 +26,7 @@ image-subtitle{
 
 .row{
 justify-content: center;
-padding: 50px 0;
-}
 
-.row::after{
-    content: " ";
-    clear: both;
-    align-items: center;
-    align-text: center;
 }
 
 h1 {
