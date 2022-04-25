@@ -108,21 +108,21 @@ function renderQuestion() {
 
     quiz.innerHTML = "<h2>You got " + correct + " of " + questions.length + " questions correct</h2>";
 
-    if(correct == 0){
-      quiz.innerHTML += "<h2> YOU HAVE NO CINEMATIC CULTURE </h2>";
-    } //if ZERO questions are correct
-  
-    if(correct >= 1 && correct <= 5){
-      quiz.innerHTML += "<h2> YOU ARE AN CASUAL VIEWER </h2>";
-    } //if ONE question is correct
+    if(correct <= 1){
+        quiz.innerHTML += "<h2> YOU HAVE NO CINEMATIC CULTURE </h2>";
+    } //if ZERO or ONE questions are correct
+
+    if(correct > 1 && correct <= 5){
+        quiz.innerHTML += "<h2> YOU ARE AN CASUAL VIEWER </h2>";
+    } //if more than ONE question are correct
 
     if(correct > 5 && correct <= 8){
-      quiz.innerHTML += "<h2> YOU ARE AN AVERAGE VIEWER </h2>";
-    } //if TWO questions are correct
+        quiz.innerHTML += "<h2> YOU ARE AN AVERAGE VIEWER </h2>";
+    } //if FIVE to EIGHT questions are correct
 
     if(correct == 9){
-      quiz.innerHTML += "<h2> YOU ARE A CINEMA LOVER </h2>";
-    } //if THREE questions are correct
+        quiz.innerHTML += "<h2> YOU ARE A CINEMA LOVER </h2>";
+    } //if ALL questions are correct
 
     get("quiz_status").innerHTML = "Quiz completed";
     //reset everything for the next quiz
