@@ -1,4 +1,4 @@
-@import 
+@import
 url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 
 body{
@@ -28,19 +28,32 @@ h1{
     color: #fff;
 }
 
+audio::-webkit-media-controls-panel {
+  background-color: #56AEFF;
+}
+
 .pretty-image{
     width: 1100px;
     height: 480px;
     border-top: 50px solid black;
     border-bottom: 50px solid black;
-    /*position: relative;
-    top: 0px; left: 130px;*/
 }
 
 .icons{
-    width: 400px;
-    height: 400px;
-    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.audio{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 button{
@@ -51,6 +64,7 @@ button{
     border-radius: 3px;
     padding: 20px;
     cursor: pointer;
+    margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -78,5 +92,5 @@ button:hover{
 
   /* CHECKED STYLES */
   [type=radio]:checked + img {
-    outline: 20px solid #f00;
+    outline: 10px solid #4287f5;
   }

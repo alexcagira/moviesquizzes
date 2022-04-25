@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://www.dropbox.com/s/3e94y1u0cm5lj0o/curtains.gif?dl=0");
+    background-image: url("https://i.gifer.com/VJkc.gif");
     background-size: cover;
     background-color: rgb(130, 16, 16);
     text-align: center;
@@ -26,22 +26,22 @@ image-subtitle{
 .row::after{
     content: " ";
     clear: both;
-    display: inline-flex;
-    justify-content: center;
     align-items: center;
+    align-text: center;
 }
+
 h1 {
-    background-color:rgb(207, 131, 16); color:rgb(228, 231, 17);
+    background-color: #871e2c; color: #ebc82f;
     text-align: center;
 }
-nav {background-color:rgb(138, 190, 40); color:teal}
+nav {background-color:#85446d}
 p {
-    background-color: blueviolet;
+    background-color: #4a0a13;
     position: absolute;
     bottom: 5px; left: 450px;
 }
 footer {
-    background-color: darkgreen;
+    background-color: #4a0a13;
     position: absolute;
     bottom: 0px; left: 550px;
 }

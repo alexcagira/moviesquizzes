@@ -28,19 +28,28 @@ h1{
     color: #fff;
 }
 
+audio::-webkit-media-controls-panel {
+  background-color: #56AEFF;
+}
+
 .pretty-image{
     width: 1100px;
     height: 480px;
     border-top: 50px solid black;
     border-bottom: 50px solid black;
-    /*position: relative;
-    top: 0px; left: 130px;*/
 }
 
 .icons{
     width: 300px;
     height: 300px;
     border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.audio{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
