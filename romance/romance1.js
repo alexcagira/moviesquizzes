@@ -30,7 +30,7 @@ var questions = [
   },
 
   { //Question 4
-    question: "<h2>'I'm just a girl, in front of a boy, asking him to love her'</h2>",
+    question: "<h2>'I'm also just a girl, in front of a boy, asking him to love her'</h2>",
     a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/arwen.png?raw=true",
     b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/annascott.png?raw=true",
     c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/victorfrankestein.png?raw=true",
@@ -41,7 +41,7 @@ var questions = [
   },
 
   { //Question 5
-    question: "<h2>'SOMETHING'</h2>",
+    question: "<h2>'You have bewitched me, body and soul, and I love... I love... I love you'</h2>",
     a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/joelbaris.png?raw=true",
     b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/darcyfitzwilliam.png?raw=true",
     c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/inigo.png?raw=true",
@@ -52,7 +52,7 @@ var questions = [
   },
 
   { //Question 6
-    question: "<h2>'I only think about you when we are apart'</h2>",
+    question: "<h2>'Sometimes I miss you so much I can hardly stand it'</h2>",
     a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/jacktwist.png?raw=true",
     b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/darcyfitzwilliam.png?raw=true",
     c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/victorfrankestein.png?raw=true",
