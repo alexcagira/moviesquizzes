@@ -3,19 +3,18 @@ body {
     background-size: cover;
     background-color: rgb(130, 16, 16);
     text-align: center;
-    height: 100;
-    padding: 0;
-    margin: 0;
+    justify-content: center;
 }
+
 .frame{
     width: 200px;
     height: 200px;
     border: 6px solid rgb(6, 20, 39);
-    margin: 20px;
-    padding: 0px;
+    margin-left: 80px;
+    margin-top: 100px;
     float: left;
-
 }
+
 image-subtitle{
     color: rgb(249, 243, 243);
     font-weight: 625;
@@ -24,16 +23,11 @@ image-subtitle{
     font-size: 20px;
 }
 
-.row{
-justify-content: center;
-
-}
-
 h1 {
     background-color: #871e2c; color: #ebc82f;
     text-align: center;
 }
-nav {background-color:#85446d}
+
 p {
     background-color: #4a0a13;
     position: absolute;
