@@ -8,7 +8,7 @@ var questions = [
   c: "Romeo + Juliet",
   d: "Moulin Rouge",
   answer: "d",
-  img: "https://film-grab.com/wp-content/uploads/2016/12/moulinrouge062.jpg"
+  img: "https://previews.dropbox.com/p/thumb/ABhzxoQxbV1ZroHROYD79S3poXEZTLTaZct0wfFmIjy3cDNbXnhRpNqiIMVutINhmEQ9Pw9seFl9GOimuTkbRtlW5YaHTMiWJ6BeDO0R3iABcG2o3seKCaGOIDsRygGBxbc3takRfEDhWoQrO4JtpCuThiC-jXs9Pr1Mgglf_2JsKr3RuO4g2LQawoaaMFrYgB9_qgDex2huqjx0szRsJ-z7TLx_-0kz-gVM6v8yulYpg3z-lw1y4GdZ2spBKDMEiDDxOPqItEcyz0g9jbd9C8rjHmzR9jIK3ERI827hCaA8RDCY8ZgBApZ6sV8hFzVV-Jk1PJMfXAUT1rMgHIbvcQf3-DZY4kC79TzYVZgMbhdqids1ReJUwKX5taljMFLTxLc/p.png"
   },
 
   { //Question 2
@@ -17,7 +17,7 @@ var questions = [
     c: "Her",
     d: "Me before you",
     answer: "a",
-    img: "https://variety.com/wp-content/uploads/2014/05/fault-in-our-stars.jpg"
+    img: "https://previews.dropbox.com/p/thumb/ABgWkx4QWBWPmCMr44WvWJaBsIKHmSFvUl25aCOt-1q3Kw2NXUyIg7vVfQYATQHwL__vOQEOk-dDT3QKjYdmr2X1rwLdKKfGP8lRUcinatlcwz-_lTcAMZs3B7jd-QrjC7PZ114WruLPAGih-dx0cyvG8iY07yi9CP_h-ZPTwoXV06TUsTAmP8PqfoBMc5JasmKd4kUg6ZxZZ3wwz63jsjnHv89W4WgCuuvApfiBIH2Nr4MJfY5a8FPontbbbKJzo_HO9BhZvFg9JJR8IpZuYT4MvzeS7H8MphysdRS3q41-JSVGphH5ySYvvQmuArwqUahLR500dhcSoipgIxv4eqJVYXaimsLCoWnIeUin7M4EJ75Lxcl0xPT9IQWv-4botRM/p.png"
   },
 
   { //Question 3
@@ -36,7 +36,7 @@ var questions = [
     c: "Arwen",
     d: "Aragorn",
     answer: "a",
-    audio: "https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/scifi/audio-quotes/ripley.mp3?raw=true"
 
   },
 
@@ -216,7 +216,7 @@ function showPrevious() {
 
 //Go back to the main page
 function goHome(){
-  document.location.href="/Users/alex/Desktop/Web Tech/WEB CW/index.html";
+  document.location.href="https://alexcagira.github.io/moviesquizzes/";
 }
 
 window.addEventListener("load", renderQuestion);

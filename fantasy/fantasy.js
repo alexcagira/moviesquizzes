@@ -216,7 +216,7 @@ function showPrevious() {
 
 //Go back to the main page
 function goHome(){
-  document.location.href="/Users/alex/Desktop/Web Tech/WEB CW/index.html";
+  document.location.href="https://alexcagira.github.io/moviesquizzes/";
 }
 
 window.addEventListener("load", renderQuestion);
