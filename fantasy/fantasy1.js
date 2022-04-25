@@ -3,93 +3,92 @@ var position = 0,
 
 var questions = [
   { //Question 1
-  a: "Resident Evil",
-  b: "2012",
-  c: "28 Days Later",
-  d: "Silent Hill",
+  a: "Legend",
+  b: "Willow",
+  c: "Harry Potter and the Prisoner of Azkaban",
+  d: "The Lord of the Rings: The Return of the King",
   answer: "c",
-  img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/horror/28days.png?raw=true"
+  img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/fantasy/harrypotter.png?raw=true"
   },
 
   { //Question 2
-    a: "Fresh",
-    b: "Scream",
-    c: "I know what you did last summer",
-    d: "Alien",
+    a: "The Princess Bride",
+    b: "Dungeons and Dragons",
+    c: "The Black Cauldron",
+    d: "The Lord of the Rings: The Fellowship of Ring",
     answer: "d",
-    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/horror/alien.png?raw=true"
+    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/fantasy/lordoftherings.png?raw=true"
   },
 
   { //Question 3
-    a: "The Invisible Man",
-    b: "Cloverfield",
-    c: "The Mist",
-    d: "The Blair Witch Project",
+    a: "Dragonheart",
+    b: "The Neverending Story",
+    c: "King Arthur: Legend of the Sword",
+    d: "A Knight's Tale",
     answer: "b",
-    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/horror/blairwitch.png?raw=true"
+    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/fantasy/neverending.png?raw=true"
   },
 
   { //Question 4
-    question: "<h2>'They're coming to get you, Barbara'</h2>",
-    a: "https://raw.githubusercontent.com/alexcagira/moviesquizzes/master/icons/jack.png",
-    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/johnny.png?raw=true",
-    c: "https://raw.githubusercontent.com/alexcagira/moviesquizzes/master/icons/jacktwist.png",
-    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/joelbaris.png?raw=true",
-    answer: "b",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/horror/Johnny.mp3?raw=true"
+    question: "<h2>'If you want him. Come and claim him'</h2>",
+    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/arwen.png?raw=true",
+    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/brand.png?raw=true",
+    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/galadriel.png?raw=true",
+    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/glinda.png?raw=true",
+    answer: "a",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/fantasy/arwen.mp3?raw=true"
 
   },
 
   { //Question 5
-    question: "<h2>'They're here'</h2>",
-    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/colesear.png?raw=true",
-    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/carolanne.png?raw=true",
-    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/annascott.png?raw=true",
-    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/darthvader.png?raw=true",
-    answer: "b",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/horror/carolanne.mp3?raw=true"
+    question: "<h2>'Happiness can be found even in the darkest of times, if one only remembers to turn on the light'</h2>",
+    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/inigo.png?raw=true",
+    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/rosetitanic.png?raw=true",
+    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/dumbledore.png?raw=true",
+    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/gandalf.png?raw=true",
+    answer: "c",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/fantasy/dumbledore.mp3?raw=true"
 
   },
 
   { //Question 6
-    question: "<h2>'I see dead people'</h2>",
-    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/brand.png?raw=true",
-    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/darcyfitzwilliam.png?raw=true",
-    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/colesear.png?raw=true",
-    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/carolanne.png?raw=true",
-    answer: "c",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/horror/colesear.mp3?raw=true"
+    question: "<h2>'Even the smallest person can change the course of the future'</h2>",
+    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/galadriel.png?raw=true",
+    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/annascott.png?raw=true",
+    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/laverne.png?raw=true",
+    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/glinda.png?raw=true",
+    answer: "a",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/fantasy/galadriel.mp3?raw=true"
 
   },
 
   { //Question 7
-    a: "Flying Through the Air - Resident Evil Retribution",
-    b: "In the house, in a heartbeat - 28 Days Later",
-    c: "Winged Horse - Silent Hill",
-    d: "Main Theme - Halloween",
-    answer: "a",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/horror/flying.m4a?raw=true"
+    a: "Prologue: One Ring to Rule Them All - The Lord of the Rings: The Fellowship of the Ring",
+    b: "Echos - Made in Abyss",
+    c: "Lumos! - Harry Potter and the Prisoner of Azkaban",
+    d: "The Battle - The Chronicles of Narnia: The Lion, The Witch and the Wardrobe",
+    answer: "d",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/fantasy/battle.m4a?raw=true"
 
   },
 
   { //Question 8
-    a: "Promise - Silent Hill",
-    b: "1,2 Freddy is coming for you - Nightmare on Elm Street",
-    c: "Leatherface - The Chainsaw Massacre",
-    d: "Alice Awakens - Resident Evil",
-    answer: "b",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/horror/freddy.ogg?raw=true"
+    a: "Aniron - The Lord of the Rings: The Fellowship of the Ring",
+    b: "Main Titles - Legend",
+    c: "Follow the Spiders - Harry Potter and the Chamber of Secrets",
+    d: "The Legend of Ashitaka - Princess Mononoke",
+    answer: "a",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/fantasy/aniron.ogg?raw=true"
 
   },
 
   { //Question 9
-    a: "Main Theme - Psycho",
-    b: "Main Theme - The Omen",
-    c: "Main Theme - Jaws",
-    d: "Main Theme - Halloween",
-    answer: "a",
-    img: "",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/horror/halloween.m4a?raw=true"
+    a: "The Shire - The Lord of the Rings: The Fellowship of the Ring",
+    b: "Heartbeat - Howl's Moving Castle",
+    c: "Double Trouble - Harry Potter and the Prisoner of Azkaban",
+    d: "Main Titles - The Neverending Story",
+    answer: "b",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/fantasy/heartbeat.ogg?raw=true"
 
   }];
 

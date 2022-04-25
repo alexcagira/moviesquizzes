@@ -88,7 +88,6 @@ var questions = [
     c: "Main Theme - Jaws",
     d: "Main Theme - Halloween",
     answer: "a",
-    img: "",
     audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/horror/halloween.m4a?raw=true"
 
   }];

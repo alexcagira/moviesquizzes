@@ -3,93 +3,92 @@ var position = 0,
 
 var questions = [
   { //Question 1
-  a: "Resident Evil",
-  b: "2012",
-  c: "28 Days Later",
-  d: "Silent Hill",
+  a: "The Curious Case of Benjamin Button",
+  b: "Call Me By Your Name",
+  c: "Breakfast at Tiffany's",
+  d: "50 First Dates",
   answer: "c",
-  img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/horror/28days.png?raw=true"
+  img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/romance/breakfastr.png?raw=true"
   },
 
   { //Question 2
-    a: "Fresh",
-    b: "Scream",
-    c: "I know what you did last summer",
-    d: "Alien",
+    a: "(500) Days of Summer",
+    b: "Love Actually",
+    c: "P.S. I Love You",
+    d: "Amélie",
     answer: "d",
-    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/horror/alien.png?raw=true"
+    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/romance/amelie.png?raw=true"
   },
 
   { //Question 3
-    a: "The Invisible Man",
-    b: "Cloverfield",
-    c: "The Mist",
-    d: "The Blair Witch Project",
-    answer: "b",
-    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/horror/blairwitch.png?raw=true"
+    a: "Batman Returns",
+    b: "Romeo + Juliet",
+    c: "After",
+    d: "A Star Is Born",
+    answer: "a",
+    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/romance/batmanreturns.png?raw=true"
   },
 
   { //Question 4
-    question: "<h2>'They're coming to get you, Barbara'</h2>",
-    a: "https://raw.githubusercontent.com/alexcagira/moviesquizzes/master/icons/jack.png",
-    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/johnny.png?raw=true",
-    c: "https://raw.githubusercontent.com/alexcagira/moviesquizzes/master/icons/jacktwist.png",
-    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/joelbaris.png?raw=true",
+    question: "<h2>'I'm just a girl, in front of a boy, asking him to love her'</h2>",
+    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/arwen.png?raw=true",
+    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/annascott.png?raw=true",
+    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/victorfrankestein.png?raw=true",
+    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/ripley.png?raw=true",
     answer: "b",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/horror/Johnny.mp3?raw=true"
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/romance/annascott.mp3?raw=true"
 
   },
 
   { //Question 5
-    question: "<h2>'They're here'</h2>",
-    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/colesear.png?raw=true",
-    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/carolanne.png?raw=true",
-    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/annascott.png?raw=true",
-    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/darthvader.png?raw=true",
+    question: "<h2>'SOMETHING'</h2>",
+    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/joelbaris.png?raw=true",
+    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/darcyfitzwilliam.png?raw=true",
+    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/inigo.png?raw=true",
+    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/christopherrobin.png?raw=true",
     answer: "b",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/horror/carolanne.mp3?raw=true"
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/romance/darcyfitzwilliam.mp3?raw=true"
 
   },
 
   { //Question 6
-    question: "<h2>'I see dead people'</h2>",
-    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/brand.png?raw=true",
+    question: "<h2>'I only think about you when we are apart'</h2>",
+    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/jacktwist.png?raw=true",
     b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/darcyfitzwilliam.png?raw=true",
-    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/colesear.png?raw=true",
-    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/carolanne.png?raw=true",
-    answer: "c",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/horror/colesear.mp3?raw=true"
+    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/victorfrankestein.png?raw=true",
+    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/roybatty.png?raw=true",
+    answer: "a",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/romance/jacktwist.mp3?raw=true"
 
   },
 
   { //Question 7
-    a: "Flying Through the Air - Resident Evil Retribution",
-    b: "In the house, in a heartbeat - 28 Days Later",
-    c: "Winged Horse - Silent Hill",
-    d: "Main Theme - Halloween",
-    answer: "a",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/horror/flying.m4a?raw=true"
+    a: "My Heart Will Go On - Titanic",
+    b: "I Say A Little Prayer - My Best Friend's Wedding",
+    c: "Can't Take My Eyes Off Of You - 10 Things I Hate About You",
+    d: "I Will Always Love You - The Bodyguard",
+    answer: "d",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/romance/bodyguard.ogg?raw=true"
 
   },
 
   { //Question 8
-    a: "Promise - Silent Hill",
-    b: "1,2 Freddy is coming for you - Nightmare on Elm Street",
-    c: "Leatherface - The Chainsaw Massacre",
-    d: "Alice Awakens - Resident Evil",
-    answer: "b",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/horror/freddy.ogg?raw=true"
+    a: "Unchained Melody - Ghost",
+    b: "The Time Of My Life - Dirty Dancing",
+    c: "The Winner Takes It All - Mamma Mia!",
+    d: "A Thousand Years - Breaking Dawn: Part 1",
+    answer: "a",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/romance/ghost.m4a?raw=true"
 
   },
 
   { //Question 9
-    a: "Main Theme - Psycho",
-    b: "Main Theme - The Omen",
-    c: "Main Theme - Jaws",
-    d: "Main Theme - Halloween",
+    a: "A",
+    b: "B",
+    c: "C",
+    d: "D",
     answer: "a",
-    img: "",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/horror/halloween.m4a?raw=true"
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/romance/love.m4a?raw=true"
 
   }];
 

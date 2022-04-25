@@ -3,93 +3,92 @@ var position = 0,
 
 var questions = [
   { //Question 1
-  a: "Resident Evil",
-  b: "2012",
-  c: "28 Days Later",
-  d: "Silent Hill",
-  answer: "c",
-  img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/horror/28days.png?raw=true"
+  a: "Aliens",
+  b: "Event Horizon",
+  c: "A.I. Artificial Intelligence",
+  d: "2001 - A Space Odyssey",
+  answer: "a",
+  img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/scifi/aliens.png?raw=true"
   },
 
   { //Question 2
-    a: "Fresh",
-    b: "Scream",
-    c: "I know what you did last summer",
-    d: "Alien",
-    answer: "d",
-    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/horror/alien.png?raw=true"
+    a: "Alien 3",
+    b: "Star Wars IV - A New Hope",
+    c: "Arrival",
+    d: "Dune",
+    answer: "c",
+    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/scifi/arrival.png?raw=true"
   },
 
   { //Question 3
-    a: "The Invisible Man",
-    b: "Cloverfield",
-    c: "The Mist",
-    d: "The Blair Witch Project",
-    answer: "b",
-    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/horror/blairwitch.png?raw=true"
+    a: "The Cloverfield Paradox",
+    b: "Star Trek - The Motion Picture",
+    c: "Passengers",
+    d: "Blade Runner",
+    answer: "d",
+    img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/scifi/bladerunner.png?raw=true"
   },
 
   { //Question 4
     question: "<h2>'They're coming to get you, Barbara'</h2>",
-    a: "https://raw.githubusercontent.com/alexcagira/moviesquizzes/master/icons/jack.png",
-    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/johnny.png?raw=true",
-    c: "https://raw.githubusercontent.com/alexcagira/moviesquizzes/master/icons/jacktwist.png",
-    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/joelbaris.png?raw=true",
+    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/ripley.png?raw=true",
+    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/brand.png?raw=true",
+    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/arwen.png?raw=true",
+    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/vasquez.png?raw=true",
     answer: "b",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/horror/Johnny.mp3?raw=true"
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/scifi/brand.mp3?raw=true"
 
   },
 
   { //Question 5
-    question: "<h2>'They're here'</h2>",
-    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/colesear.png?raw=true",
-    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/carolanne.png?raw=true",
-    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/annascott.png?raw=true",
+    question: "<h2>'I am your father'</h2>",
+    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/roybatty.png?raw=true",
+    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/dory.png?raw=true",
+    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/buzz.png?raw=true",
     d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/darthvader.png?raw=true",
-    answer: "b",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/horror/carolanne.mp3?raw=true"
+    answer: "d",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/scifi/darthvader.mp3?raw=true"
 
   },
 
   { //Question 6
-    question: "<h2>'I see dead people'</h2>",
-    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/brand.png?raw=true",
-    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/darcyfitzwilliam.png?raw=true",
-    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/colesear.png?raw=true",
-    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/carolanne.png?raw=true",
+    question: "<h2>'Get away from her, you bitch'</h2>",
+    a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/joelbaris.png?raw=true",
+    b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/vasquez.png?raw=true",
+    c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/ripley.png?raw=true",
+    d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/darthvader.png?raw=true",
     answer: "c",
     audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/horror/colesear.mp3?raw=true"
 
   },
 
   { //Question 7
-    a: "Flying Through the Air - Resident Evil Retribution",
-    b: "In the house, in a heartbeat - 28 Days Later",
-    c: "Winged Horse - Silent Hill",
-    d: "Main Theme - Halloween",
-    answer: "a",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/horror/flying.m4a?raw=true"
+    a: "Bishop's Countdown - Aliens",
+    b: "Flying - E.T. The Extra-Terrestrial",
+    c: "Main Theme - Titan A.E.",
+    d: "Main Theme - Alien",
+    answer: "b",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/scifi/alien.ogg?raw=true"
 
   },
 
   { //Question 8
-    a: "Promise - Silent Hill",
-    b: "1,2 Freddy is coming for you - Nightmare on Elm Street",
-    c: "Leatherface - The Chainsaw Massacre",
-    d: "Alice Awakens - Resident Evil",
-    answer: "b",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/horror/freddy.ogg?raw=true"
+    a: "I don't wanna miss a thing - Armageddon",
+    b: "S.T.A.Y. - Interstellar",
+    c: "Orbital - Event Horizon",
+    d: "A Planet - Prometheus",
+    answer: "a",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/scifi/armageddon.m4a?raw=true"
 
   },
 
   { //Question 9
-    a: "Main Theme - Psycho",
-    b: "Main Theme - The Omen",
-    c: "Main Theme - Jaws",
-    d: "Main Theme - Halloween",
-    answer: "a",
-    img: "",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/horror/halloween.m4a?raw=true"
+    a: "Hope - Rogue One",
+    b: "The Imperial March - Star Wars V",
+    c: "Main Titles - Star Trek",
+    d: "R. Strauss: Thus Spoke Zarathustra - 2001: A Space Odyssey",
+    answer: "b",
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/scifi/imperial.m4a?raw=true"
 
   }];
 
