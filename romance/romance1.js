@@ -83,10 +83,10 @@ var questions = [
   },
 
   { //Question 9
-    a: "A",
-    b: "B",
-    c: "C",
-    d: "D",
+    a: "Pretty Woman",
+    b: "The Secret in Their Eyes",
+    c: "The Notebook",
+    d: "West Side Story",
     answer: "a",
     audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/romance/love.m4a?raw=true"
 
@@ -112,11 +112,11 @@ function renderQuestion() {
       quiz.innerHTML += "<h2> YOU HAVE NO CINEMATIC CULTURE </h2>";
     } //if ZERO questions are correct
   
-    if(correct >= 1 && correct >! 5){
+    if(correct >= 1 && correct <= 5){
       quiz.innerHTML += "<h2> YOU ARE AN CASUAL VIEWER </h2>";
     } //if ONE question is correct
 
-    if(correct > 5 && correct >! 8){
+    if(correct > 5 && correct <= 8){
       quiz.innerHTML += "<h2> YOU ARE AN AVERAGE VIEWER </h2>";
     } //if TWO questions are correct
 
