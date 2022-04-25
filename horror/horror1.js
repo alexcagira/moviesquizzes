@@ -25,7 +25,7 @@ var questions = [
     b: "Cloverfield",
     c: "The Mist",
     d: "The Blair Witch Project",
-    answer: "b",
+    answer: "d",
     img: "https://github.com/alexcagira/moviesquizzes/blob/master/frames/horror/blairwitch.png?raw=true"
   },
 
@@ -87,7 +87,7 @@ var questions = [
     b: "Main Theme - The Omen",
     c: "Main Theme - Jaws",
     d: "Main Theme - Halloween",
-    answer: "a",
+    answer: "d",
     audio: "https://github.com/alexcagira/moviesquizzes/blob/master/soundtracks/horror/halloween.m4a?raw=true"
 
   }];
