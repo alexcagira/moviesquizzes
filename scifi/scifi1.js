@@ -30,7 +30,7 @@ var questions = [
   },
 
   { //Question 4
-    question: "<h2>'Love is the only that transcends time and space'</h2>",
+    question: "<h2>'Love is the one thing we are capable of perceiving that transcends dimensions of time and space'</h2>",
     a: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/ripley.png?raw=true",
     b: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/brand.png?raw=true",
     c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/arwen.png?raw=true",
@@ -58,7 +58,7 @@ var questions = [
     c: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/ripley.png?raw=true",
     d: "https://github.com/alexcagira/moviesquizzes/blob/master/icons/darthvader.png?raw=true",
     answer: "c",
-    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/horror/colesear.mp3?raw=true"
+    audio: "https://github.com/alexcagira/moviesquizzes/blob/master/audio-quotes/scifi/ripley.mp3?raw=true"
 
   },
 
