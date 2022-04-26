@@ -3,37 +3,44 @@ body {
     background-size: cover;
     background-color: rgb(130, 16, 16);
     text-align: center;
-    justify-content: center;
 }
 
 .frame{
     width: 200px;
     height: 200px;
-    border: 6px solid rgb(6, 20, 39);
+    border: 2px solid rgb(6, 20, 39);
     margin: 10px;
-    float: left;
 }
+
+.frame:hover{
+    outline: 4px solid #FFFFFF;
+  }
 
 image-subtitle{
     color: rgb(249, 243, 243);
     font-weight: 625;
     text-align: center;
-    padding: 2px;
     font-size: 20px;
 }
-
+.genrePic{
+    width: 100vw;
+    height: 42vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 h1 {
-    background-color: #871e2c; color: #ebc82f;
+    background-color: rgb(140, 0, 38, .3); color: #ebc82f;
     text-align: center;
 }
 
 p {
-    background-color: #4a0a13;
-    position: absolute;
-    bottom: 5px; left: 450px;
+    background-color: rgb(140, 0, 38, .5);
+    padding: 0.5rem 0.5rem;
+
 }
 footer {
-    background-color: #4a0a13;
-    position: absolute;
-    bottom: 0px; left: 550px;
+    background-color: rgb(140, 0, 38, .5);
+    padding: 0.5rem 0.5rem;
 }
