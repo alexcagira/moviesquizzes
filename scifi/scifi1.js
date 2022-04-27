@@ -159,7 +159,7 @@ function renderQuestion() {
   if(position >= 3 && position <= 5){
     quiz.innerHTML += "<h1>GUESS WHO SAID THE QUOTE</h1>";
     quiz.innerHTML += "<label><audio controls><source src=" + audio + " type='audio/mpeg'></audio></label>";
-    quiz.innerHTML += "<h3>" + question + "</h3>"
+    quiz.innerHTML += "<h3>" + question + "</h3>";
     quiz.innerHTML += "<label><input type='radio' name='choices' value='a'><img class='icons' src=" + chA + "></label>";
     quiz.innerHTML += "<label><input type='radio' name='choices' value='b'><img class='icons' src=" + chB + "></label>";
     quiz.innerHTML += "<label><input type='radio' name='choices' value='b'><img class='icons' src=" + chC + "></label>";
