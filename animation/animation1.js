@@ -1,6 +1,7 @@
-var position = 0,
-  quiz, quiz_status, question, audio, choice, choices, chA, chB, chC, chD, correct = 0;
+//Declaration of variables
+var position = 0, quiz, quiz_status, question, audio, choice, choices, chA, chB, chC, chD, correct = 0;
 
+//Collection of questions that holds an array of all the questions of the quiz
 var questions = [
   { //Question 1
   a: "The Secret of NIMH",
