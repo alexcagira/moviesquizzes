@@ -9,6 +9,7 @@ body{
     font-weight: 300;
     text-align: center;
     background-color: #f8f6f0;
+}
 
 h1{
     font-weight: 300;
@@ -76,7 +77,6 @@ button:hover{
     position: relative;
     height: 200px;
     margin-top: 40px;
-    color: #279;
 }
 
 /* Makes the cursor to become a pointer when it is above of the picture */
