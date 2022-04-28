@@ -10,11 +10,6 @@ body{
     text-align: center;
     background-color: #f8f6f0;
 
-}
-.quiz{
-    color: brown;
-}
-
 h1{
     font-weight: 300;
     margin: 0px;
@@ -84,7 +79,7 @@ button:hover{
     color: #279;
 }
 
-/* Makes the cursort to become a pointer when it is above of the picture */
+/* Makes the cursor to become a pointer when it is above of the picture */
 [type=radio] + img {
     cursor: pointer;
   }

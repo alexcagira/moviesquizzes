@@ -1,5 +1,6 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+/* Import an online font to use and format the website */
 
 body{
     font-size: 20px;
@@ -8,15 +9,6 @@ body{
     font-weight: 300;
     text-align: center;
     background-color: #f8f6f0;
-
-}
-.quiz_status{
-    color: #279;
-}
-
-.quiz{
-    color: brown;
-}
 
 h1{
     font-weight: 300;
@@ -28,6 +20,7 @@ h1{
     color: #fff;
 }
 
+/* Audio color to add to change from plain white to blue*/
 audio::-webkit-media-controls-panel {
   background-color: #56AEFF;
 }
@@ -83,14 +76,15 @@ button:hover{
     position: relative;
     height: 200px;
     margin-top: 40px;
+    color: #279;
 }
 
-/* IMAGE STYLES */
+/* Makes the cursor to become a pointer when it is above of the picture */
 [type=radio] + img {
     cursor: pointer;
   }
 
-  /* CHECKED STYLES */
+/* Gives the image choice a frame whenever it is clicked on */
   [type=radio]:checked + img {
     outline: 10px solid #4287f5;
   }

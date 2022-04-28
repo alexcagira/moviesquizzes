@@ -1,6 +1,7 @@
-var position = 0,
-  quiz, quiz_status, question, audio, choice, choices, chA, chB, chC, chD, correct = 0;
+//Declaration of variables
+var position = 0, quiz, quiz_status, question, audio, choice, choices, chA, chB, chC, chD, correct = 0;
 
+//Collection of questions that holds an array of all the questions of the quiz
 var questions = [
   { //Question 1
   a: "Resident Evil",
@@ -92,16 +93,18 @@ var questions = [
 
   }];
 
-
+//Function that gets all the elements by their ID
 function get(x) {
   return document.getElementById(x);
 }
 
+//function to create the audio controls
 function play() {
   audio = document.getElementById("audio");
   audio.play();
 }
 
+//Main function that structures the questions and renders them for the website with the values from the array
 function renderQuestion() {
   quiz = get("quiz");
   if (position >= questions.length) {
@@ -125,7 +128,8 @@ function renderQuestion() {
        } //if ALL questions are correct
 
     get("quiz_status").innerHTML = "Quiz completed";
-    //reset everything for the next quiz
+
+    //Resets everything once its finished
     position = 0;
     correct = 0;
 
@@ -140,7 +144,8 @@ function renderQuestion() {
   chB = questions[position].b;
   chC = questions[position].c;
   chD = questions[position].d;
-  //Add local var to hold url
+
+  //Add local var to hold url for the image and audio
   img = questions[position].img;
   audio = questions[position].audio;
 
@@ -148,7 +153,7 @@ function renderQuestion() {
 
   if(position <= 2){
     quiz.innerHTML += "<h1>GUESS THE FRAME</h1>";
-  //Add <img> element to DOM with source
+    //Add <img> element to DOM with source
     quiz.innerHTML += "<img class='pretty-image' src=\"" + img + "\"><br>";
     quiz.innerHTML += "<label> <input type='radio' class='pretty-choice' name='choices' value='a'> " + chA + "</label>";
     quiz.innerHTML += "<label> <input type='radio' class='pretty-choice' name='choices' value='b'> " + chB + "</label>";
@@ -158,6 +163,7 @@ function renderQuestion() {
   
   if(position >= 3 && position <= 5){
     quiz.innerHTML += "<h1>GUESS WHO SAID THE QUOTE</h1>";
+    //Add audio controls to the DOM with source
     quiz.innerHTML += "<label><audio controls><source src=" + audio + " type='audio/mpeg'></audio></label>";
     quiz.innerHTML += "<h3>" + question + "</h3>";
     quiz.innerHTML += "<label><input type='radio' name='choices' value='a'><img class='icons' src=" + chA + "></label>";
@@ -179,6 +185,7 @@ function renderQuestion() {
   quiz.innerHTML += "<button onclick='showNext()'>Question &#8680</button>";
 }
 
+//function that adds one to the counter if the answers are correct, if not goes to the next position
 function checkAnswer() {
   choices = document.getElementsByName("choices");
   for (var i = 0; i < choices.length; i++) {
@@ -212,4 +219,5 @@ function goHome(){
   document.location.href="https://alexcagira.github.io/moviesquizzes/";
 }
 
+//Loads into the screen the question
 window.addEventListener("load", renderQuestion);
